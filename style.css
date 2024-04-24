@@ -1,0 +1,47 @@
+body {
+    width: 40%;
+    color: #AB63E6;
+    font-family: sans-serif;
+    background-color: #E6ABDE;
+
+    .summary{
+        text-align: center;
+    }
+    
+    #zen-supporting{
+        p{
+            line-height: 1.5;
+        }
+    }
+
+    p {
+        text-indent: 1em;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #E64CE6;
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        text-align: center;
+        color: #E64CE6;
+        font-size: 1.4rem;
+    }
+    
+    h3 {
+        text-align: center;
+        color: #E64CE6;
+        font-size: 1.2rem;
+    }
+    
+    abbr{
+        font-variant: small-caps;
+    }
+
+    a{
+        color: #8F6CE5;
+    }
+
+}
