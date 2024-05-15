@@ -1,6 +1,13 @@
 html {
   a {
     color: #8864e4;
+    font-weight: bold;
+  }
+  a:hover {
+    color: white;
+  }
+  a:visited {
+    font-weight: normal;
   }
 }
 
@@ -20,6 +27,12 @@ header {
   margin-right: 35%;
   border-right: solid 1px;
   border-color: #1f295c;
+
+  p:nth-child(2)::first-letter {
+    font-size: 300%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-right: 2%;
+  }
 }
 
 *[role="banner"] > * {
@@ -85,6 +98,12 @@ h3 {
     list-style-type: none;
     line-height: 1.5em;
   }
+  li {
+    border-top: solid 1px #1f295c;
+  }
+  li:last-child {
+    border-bottom: solid 1px #1f295c;
+  }
 }
 
 abbr {
@@ -92,8 +111,38 @@ abbr {
 }
 
 footer {
+  display: flex;
   margin: 4%;
   a {
     border: 2px solid;
+    flex-basis: 50%;
+    text-align: center;
+    margin: 5%;
+  }
+}
+
+.benefits {
+  border-top: solid 1px #1f295c;
+  border-bottom: solid 1px #1f295c;
+  display: flex;
+  flex-direction: row-reverse;
+  h3 {
+    align-self: center;
+    flex-grow: 3;
+  }
+  p {
+    flex-basis: 70%;
+  }
+}
+
+.participation {
+  border-top: solid 1px #1f295c;
+  display: flex;
+  h3 {
+    align-self: center;
+    flex-grow: 5;
+  }
+  p {
+    flex-basis: 50%;
   }
 }
