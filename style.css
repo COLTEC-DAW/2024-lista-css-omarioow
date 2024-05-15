@@ -1,47 +1,99 @@
+html {
+  a {
+    color: #8864e4;
+  }
+}
+
+header {
+  background-color: #8f6ce5;
+  border-radius: 20px;
+  color: #e6abde;
+  text-align: center;
+}
+
+.page.wrapper {
+  position: relative;
+}
+
+.explanation {
+  width: 60%;
+  margin-right: 35%;
+  border-right: solid 1px;
+  border-color: #1f295c;
+}
+
+*[role="banner"] > * {
+  display: inline-block;
+}
+
+[role="banner"] {
+  margin: auto;
+  text-align: center;
+  h2 {
+    text-indent: 1em;
+  }
+}
+
 body {
-    width: 40%;
-    color: #AB63E6;
-    font-family: sans-serif;
-    background-color: #E6ABDE;
+  margin: auto;
+  width: 80%;
+  max-width: 1280px;
+  color: #ab63e6;
+  font-family: sans-serif;
+  background-color: #e6abde;
+}
+.design-archives {
+  display: none;
+}
 
-    .summary{
-        text-align: center;
-    }
-    
-    #zen-supporting{
-        p{
-            line-height: 1.5;
-        }
-    }
+zen-supporting {
+  p {
+    line-height: 1.5;
+  }
+}
 
-    p {
-        text-indent: 1em;
-    }
-    
-    h1 {
-        text-align: center;
-        color: #E64CE6;
-        font-size: 1.8rem;
-    }
-    
-    h2 {
-        text-align: center;
-        color: #E64CE6;
-        font-size: 1.4rem;
-    }
-    
-    h3 {
-        text-align: center;
-        color: #E64CE6;
-        font-size: 1.2rem;
-    }
-    
-    abbr{
-        font-variant: small-caps;
-    }
+p {
+  text-indent: 1em;
+}
 
-    a{
-        color: #8F6CE5;
-    }
+h1 {
+  text-align: center;
+  color: #e6abde;
+  font-size: 1.8rem;
+}
 
+h2 {
+  text-align: center;
+  color: #e6abde;
+  font-size: 1.4rem;
+}
+
+h3 {
+  text-align: center;
+  color: #e64ce6;
+  font-size: 1.2rem;
+}
+
+.design-selection {
+  position: absolute;
+  top: 310px;
+  left: 62%;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+  ul {
+    list-style-type: none;
+    line-height: 1.5em;
+  }
+}
+
+abbr {
+  font-variant: small-caps;
+}
+
+footer {
+  margin: 4%;
+  a {
+    border: 2px solid;
+  }
 }
